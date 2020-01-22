@@ -19,7 +19,7 @@
     }
     button{
         padding: 10px;
-        height: 50px;
+        height: 60px;
         width: 35%;
         border-radius: 5px;
         font-size: 1.2rem;
@@ -27,7 +27,7 @@
         color: white;
         cursor: pointer;
         &:hover{
-            font-size: 1.4rem;
+            font-size: 1.3rem;
         }
     }
 }
@@ -63,3 +63,17 @@ input{
     justify-content: center;
     margin-top: 5vh;
 }
+
+button{
+        padding: 10px;
+        height: 60px;
+        width: 35%;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        background-color: dodgerblue;
+        color: white;
+        cursor: pointer;
+        &:hover{
+            font-size: 1.3rem;
+        }
+    }

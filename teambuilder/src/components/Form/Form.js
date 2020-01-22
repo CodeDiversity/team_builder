@@ -51,7 +51,8 @@ function Form() {
 				{users.map((el, idx) => {
 					return <Card key={idx} el={el} />;
 				})}
-			</div>
+            </div>
+            <button onClick={() => {window.localStorage.clear(); setUsers([])}}>Clear Data</button>
 		</div>
 	);
 }
